@@ -1,0 +1,76 @@
+<!-- Hey! I am Shammaskavi✌! a beginner in the world of Web-Dev.
+I made this as a project at Masai's oneday Bootcamp.
+This consits only basic applications of JavaScript, HTML and CSS -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <title>KeyboardMasai School</title>
+</head>
+
+<body>
+    <div id="keys_output">ENTER YOUR TEXT</div>
+    <div class="keys_row">
+        <button onclick="button_clicked('1')">1</button>
+        <button onclick="button_clicked('2')">2</button>
+        <button onclick="button_clicked('3')">3</button>
+        <button onclick="button_clicked('4')">4</button>
+        <button onclick="button_clicked('5')">5</button>
+        <button onclick="button_clicked('6')">6</button>
+        <button onclick="button_clicked('7')">7</button>
+        <button onclick="button_clicked('8')">8</button>
+        <button onclick="button_clicked('9')">9</button>
+        <button onclick="button_clicked('0')">0</button>
+    </div>
+    <div class="keys_row">
+        <button onclick="button_clicked('Q')">Q</button>
+        <button onclick="button_clicked('W')">W</button>
+        <button onclick="button_clicked('E')">E</button>
+        <button onclick="button_clicked('R')">R</button>
+        <button onclick="button_clicked('T')">T</button>
+        <button onclick="button_clicked('Y')">Y</button>
+        <button onclick="button_clicked('U')">U</button>
+        <button onclick="button_clicked('I')">I</button>
+        <button onclick="button_clicked('O')">O</button>
+        <button onclick="button_clicked('P')">P</button>
+    </div>
+    <div class="keys_row">
+        <button onclick="button_clicked('A')">A</button>
+        <button onclick="button_clicked('S')">S</button>
+        <button onclick="button_clicked('D')">D</button>
+        <button onclick="button_clicked('F')">F</button>
+        <button onclick="button_clicked('G')">G</button>
+        <button onclick="button_clicked('H')">H</button>
+        <button onclick="button_clicked('J')">J</button>
+        <button onclick="button_clicked('K')">K</button>
+        <button onclick="button_clicked('L')">L</button>
+    </div>
+    <div class="keys_row">
+        <button onclick="button_clicked('Z')">Z</button>
+        <button onclick="button_clicked('X')">X</button>
+        <button onclick="button_clicked('C')">C</button>
+        <button onclick="button_clicked('V')">V</button>
+        <button onclick="button_clicked('B')">B</button>
+        <button onclick="button_clicked('N')">N</button>
+        <button onclick="button_clicked('M')">M</button>
+    </div>
+    <div class="fn_keys">
+        <span class="keys_row">
+            <button id="caps_btn" onclick="caps_clicked()">Caps Lk</button>
+        </span>
+        <span class="keys_row">
+            <button id="clear_btn" onclick="clear_clicked()">⟵</button>
+        </span>
+        <div class="keys_row">
+            <button id="spc_bar" onclick="spcbar_clicked()">&nbsp;</button>
+        </div>
+    </div>
+    <footer>
+        <a href="https://www.instagram.com/shammaskavi/">&copy;Shammaskavi 2021</a>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

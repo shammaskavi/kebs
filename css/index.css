@@ -1,0 +1,67 @@
+/* I enjoy making things look aesthetic, thats my kinda jam🤩!! [PS: If you like that too, than hit me up on Instagram @shammaskavi, would love to connect with you😇] So CSS was my favorite part in the whole project and I tried my best to make it stand out, hope you liked it */
+
+button {
+    width: 64px;
+    height: 64px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 32px;
+    margin: 10px;
+    padding: 2px;
+    transition-duration: 0.15s;
+
+}
+
+button:hover {
+    background-color: #C0C0C0;
+    transform: scale(1.2);
+    border-radius: 10px;
+    color: black;
+}
+
+.keys_row {
+    text-align: center;
+}
+
+#keys_output {
+    background-color: #C0C0C0;
+    margin: 20px;
+    font-size: 40px;
+    text-align: center;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#caps_btn {
+    height: 64px;
+    width: 250px;
+    margin: 20px;
+}
+
+#clear_btn {
+    height: 64px;
+    width: 250px;
+    margin: 20px;
+}
+
+.fn_keys {
+    text-align: center;
+    /* padding: 20px; */
+}
+
+#spc_bar {
+    height: 64px;
+    width: 540px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+} 
+
+footer a {
+    text-decoration: none;
+    top: 20px;
+}
